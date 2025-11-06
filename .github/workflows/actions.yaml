@@ -26,3 +26,4 @@ jobs:
         run: mvn package -Dmaven.test.skip=true # Build (compiles) the source code
 
       - name: Unit Test
+        run: mvn test # Executes the testing framework 
